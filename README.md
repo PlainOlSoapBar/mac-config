@@ -1,4 +1,4 @@
-# ./config Repository
+# .dotfile Repository
 Configs for programs I daily drive on my MacBook.
 
 [AeroSpace](https://github.com/nikitabobko/AeroSpace) : A tiling window manager.   
