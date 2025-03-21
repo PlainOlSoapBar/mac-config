@@ -216,8 +216,16 @@ exec-on-workspace-change = ['/bin/bash', '-c',
     shift-down = ['volume set 0', 'mode main']
 
 [[on-window-detected]]
+    if.app-id = 'com.apple.Terminal'
+    run = 'move-node-to-workspace C' # Terminal
+
+[[on-window-detected]]
     if.app-id = 'com.microsoft.VSCode'
-    run = 'move-node-to-workspace C' # vsCode
+    run = 'move-node-to-workspace C' # VSCode
+
+[[on-window-detected]]
+    if.app-id = 'com.github.wez.wezterm'
+    run = 'move-node-to-workspace C' # WezTerm 
 
 [[on-window-detected]]
     if.app-id = 'com.hnc.Discord'
@@ -234,10 +242,6 @@ exec-on-workspace-change = ['/bin/bash', '-c',
 [[on-window-detected]]
     if.app-id = 'com.spotify.client'
     run = 'move-node-to-workspace S' # Spotify
-
-[[on-window-detected]]
-    if.app-id = 'com.apple.Terminal'
-    run = 'move-node-to-workspace T' # Terminal
 
 [[on-window-detected]]
     if.app-id = 'app.zen-browser.zen'
