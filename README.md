@@ -11,6 +11,7 @@ Configs for programs I daily drive on my MacBook. ( ´ ω ` )
 
 ## Preview
 ![Desktop Screenshot](https://github.com/user-attachments/assets/718c1fbe-cd0f-4fb6-8069-668c688a9baa)
+<sup>The artist of my wallpaper is [RNNA](https://x.com/rnna_7/media)!</sup>
 
 ## Other cool things you should use!
 [Zen](https://zen-browser.app/) : Firefox-based browser.
