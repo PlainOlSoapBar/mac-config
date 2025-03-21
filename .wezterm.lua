@@ -16,7 +16,6 @@ config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.8
 config.macos_window_background_blur = 10
 
--- my coolnight colorscheme:
 config.colors = {
 	foreground = "#DDD2EC",   -- Lightest, general text
 	background = "#0D1143",   -- Darkest, main background
